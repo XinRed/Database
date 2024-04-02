@@ -1,0 +1,100 @@
+body {
+    background: linear-gradient(330deg, black, brown);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+	font-weight: bold;
+}
+nav div {
+    margin: 10px 20px;
+	height: 40px;
+	width: 80px;
+    display: flex;
+	align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+nav .selected {
+	color:black;
+	background-color: rgba(255, 255, 255, 0.3)
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+table {
+    border: 5px solid transparent;
+	border-radius: 15px;
+    font-size: 22px;
+}
+td {
+    border: 2px solid transparent;
+    width: 120px;
+    text-align: center;
+}
+.blue {
+    color:aqua;
+    font-weight:bold;
+    font-size: 60px;
+}
+.gold {
+    color:gold;
+    font-weight:bold;
+}
+.green {
+    color:lime;
+    font-weight:bold;
+	font-size: 28px;
+}
+.purple {
+    color:rgb(183, 0, 255);
+    font-weight:bold;
+	font-size: 28px;
+}
+.red {
+    color: rgb(255, 92, 130);
+    font-weight: bold;
+}
+.warning{
+    font-weight: bold;
+	font-size: 30px;
+    border: 2px solid transparent;
+    width: 480px;
+    text-align: center;
+	padding: 30px 80px 40px;
+}
+.bg {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin: 10px auto;
+}
+.skill_name td {
+    padding-top: 20px;
+    color:rgb(255, 0, 242);
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+.skill_level td {
+    padding-top: 0px;
+    font-weight: bold;
+    color:rgb(255, 0, 242);
+    font-size: 15px;
+}
+.hr td{
+    padding: 0px;
+    height: 1px;
+}
+hr {
+    margin: 0px auto;
+    border: 1.5px solid rgb(111, 92, 255);
+    width: 68%
+}
